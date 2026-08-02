@@ -4,6 +4,8 @@ import { LayoutDashboard, Users, MessageSquare, Settings, LogOut } from 'lucide-
 import Link from 'next/link';
 import { logoutAction } from '@/app/actions/auth';
 
+export const dynamic = 'force-dynamic';
+
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {
   const { user } = await validateRequest();
 

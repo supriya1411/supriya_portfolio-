@@ -4,6 +4,8 @@ import { validateRequest } from '@/lib/auth';
 import { redirect } from 'next/navigation';
 import { Trash2, CheckCircle } from 'lucide-react';
 
+export const dynamic = 'force-dynamic';
+
 export default async function MessagesPage() {
   const { user } = await validateRequest();
   if (!user) redirect('/login');

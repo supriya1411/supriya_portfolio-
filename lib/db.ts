@@ -1,32 +1,15 @@
-import 'dotenv/config'
 import { PrismaClient } from '@prisma/client'
-import { Pool } from 'pg'
-import { PrismaPg } from '@prisma/adapter-pg'
 
-const prismaClientSingleton = () => {
-  const connectionString = process.env.DATABASE_URL
-
-  if (!connectionString) {
-    throw new Error('DATABASE_URL is not set')
-  }
-
-  if (connectionString.startsWith('prisma+postgres://')) {
-    // Prisma Postgres handles its own adapter internally
-    return new PrismaClient()
-  }
-
-  // Standard PostgreSQL connection (e.g., Docker Compose)
-  const pool = new Pool({ connectionString })
-  const adapter = new PrismaPg(pool)
-  return new PrismaClient({ adapter })
+const globalForPrisma = globalThis as unknown as {
+  prisma: PrismaClient | undefined
 }
 
-declare global {
-  var prismaGlobal2: undefined | ReturnType<typeof prismaClientSingleton>
-}
+const prisma =
+  globalForPrisma.prisma ??
+  new PrismaClient()
 
-const prisma = globalThis.prismaGlobal2 ?? prismaClientSingleton()
+if (process.env.NODE_ENV !== 'production') {
+  globalForPrisma.prisma = prisma
+}
 
 export default prisma
-
-if (process.env.NODE_ENV !== 'production') globalThis.prismaGlobal2 = prisma
