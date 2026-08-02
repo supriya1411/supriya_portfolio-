@@ -10,21 +10,21 @@ import Script from 'next/script';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Juhi | Full-Stack Developer',
+  title: 'Supriya | Full-Stack Developer',
   description: 'Enterprise-grade applications engineered to scale.',
   keywords: ['Full-Stack Developer', 'React', 'Next.js', 'Node.js', 'TypeScript', 'Portfolio'],
-  authors: [{ name: 'Juhi' }],
+  authors: [{ name: 'Supriya' }],
   openGraph: {
-    title: 'Juhi | Full-Stack Developer',
+    title: 'Supriya | Full-Stack Developer',
     description: 'Enterprise-grade applications engineered to scale.',
-    url: 'https://juhidev.example.com',
-    siteName: 'Juhi Portfolio',
+    url: 'https://supriyadev.example.com',
+    siteName: 'Supriya Portfolio',
     images: [
       {
-        url: 'https://juhidev.example.com/og-image.jpg',
+        url: 'https://supriyadev.example.com/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Juhi Portfolio Cover',
+        alt: 'Supriya Portfolio Cover',
       },
     ],
     locale: 'en_US',
@@ -32,10 +32,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Juhi | Full-Stack Developer',
+    title: 'Supriya | Full-Stack Developer',
     description: 'Enterprise-grade applications engineered to scale.',
-    creator: '@juhidev',
-    images: ['https://juhidev.example.com/og-image.jpg'],
+    creator: '@supriyadev',
+    images: ['https://supriyadev.example.com/og-image.jpg'],
   },
   robots: {
     index: true,

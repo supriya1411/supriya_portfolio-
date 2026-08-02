@@ -5,6 +5,7 @@ import { headers } from 'next/headers';
 import crypto from 'crypto';
 
 export async function trackVisit(pagePath: string) {
+  return; // Temporarily disable database tracking
   try {
     const ip = (await headers()).get('x-forwarded-for') ?? '127.0.0.1';
     const userAgent = (await headers()).get('user-agent') ?? 'unknown';

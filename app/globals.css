@@ -39,6 +39,13 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground antialiased font-sans transition-colors duration-300;
+    @apply text-foreground antialiased font-sans transition-colors duration-300;
+    background-color: var(--background);
+    background-image: 
+      radial-gradient(at 0% 0%, color-mix(in srgb, var(--primary) 15%, transparent) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, color-mix(in srgb, #3b82f6 15%, transparent) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, color-mix(in srgb, #8b5cf6 15%, transparent) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, color-mix(in srgb, #10b981 15%, transparent) 0px, transparent 50%);
+    background-attachment: fixed;
   }
 }

@@ -44,7 +44,7 @@ export function Hero({ profile }: { profile: Profile }) {
           transition={{ ...animationProps.transition, delay: 0.1 }}
           className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter mb-4 text-foreground"
         >
-          Hi, I'm <span className="text-primary/70">{profile.name.split(' ')[0] || 'Juhi'}</span>.
+          Hi, I'm <span className="text-primary/70">{profile.name.split(' ')[0] || 'Supriya'}</span>.
         </motion.h1>
         
         <motion.div
