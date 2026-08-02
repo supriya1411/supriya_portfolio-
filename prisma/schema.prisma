@@ -1,0 +1,133 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+}
+
+model User {
+  id            String         @id @default(uuid()) @db.Uuid
+  email         String         @unique
+  password_hash String
+  role          String         @default("admin")
+  created_at    DateTime       @default(now())
+  
+  projects      Project[]
+  certificates  Certificate[]
+  experiences   Experience[]
+  skills        Skill[]
+  achievements  Achievement[]
+  sessions      Session[]
+}
+
+model Session {
+  id        String   @id
+  userId    String   @db.Uuid
+  expiresAt DateTime
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Project {
+  id                String   @id @default(uuid()) @db.Uuid
+  user_id           String   @db.Uuid
+  title             String
+  slug              String   @unique
+  description       String
+  problem_statement String
+  tech_stack        Json
+  cover_image_url   String?
+  gallery_urls      Json?
+  live_url          String?
+  github_url        String?
+  category          String
+  display_order     Int      @default(0)
+  is_featured       Boolean  @default(false)
+  view_count        Int      @default(0)
+  created_at        DateTime @default(now())
+  updated_at        DateTime @updatedAt
+
+  user              User     @relation(fields: [user_id], references: [id], onDelete: Cascade)
+}
+
+model Certificate {
+  id             String   @id @default(uuid()) @db.Uuid
+  user_id        String   @db.Uuid
+  title          String
+  issuer         String
+  issue_date     DateTime
+  credential_id  String?
+  verify_url     String?
+  image_url      String?
+  display_order  Int      @default(0)
+  created_at     DateTime @default(now())
+
+  user           User     @relation(fields: [user_id], references: [id], onDelete: Cascade)
+}
+
+model Experience {
+  id             String   @id @default(uuid()) @db.Uuid
+  user_id        String   @db.Uuid
+  role_title     String
+  organization   String
+  location       String?
+  start_date     DateTime
+  end_date       DateTime?
+  is_current     Boolean  @default(false)
+  bullets        Json
+  tech_tags      Json
+  display_order  Int      @default(0)
+  created_at     DateTime @default(now())
+
+  user           User     @relation(fields: [user_id], references: [id], onDelete: Cascade)
+}
+
+model Skill {
+  id                String   @id @default(uuid()) @db.Uuid
+  user_id           String   @db.Uuid
+  name              String
+  category          String
+  proficiency_level Int
+  icon_key          String?
+  display_order     Int      @default(0)
+  created_at        DateTime @default(now())
+
+  user              User     @relation(fields: [user_id], references: [id], onDelete: Cascade)
+}
+
+model Achievement {
+  id               String   @id @default(uuid()) @db.Uuid
+  user_id          String   @db.Uuid
+  title            String
+  description      String
+  date             DateTime
+  issuer_or_event  String?
+  proof_url        String?
+  display_order    Int      @default(0)
+  created_at       DateTime @default(now())
+
+  user             User     @relation(fields: [user_id], references: [id], onDelete: Cascade)
+}
+
+model Message {
+  id           String   @id @default(uuid()) @db.Uuid
+  sender_name  String
+  sender_email String
+  message      String
+  is_read      Boolean  @default(false)
+  created_at   DateTime @default(now())
+}
+
+model Visitor {
+  id           String   @id @default(uuid()) @db.Uuid
+  session_hash String
+  page_path    String
+  referrer     String?
+  created_at   DateTime @default(now())
+}
+
+model Download {
+  id           String   @id @default(uuid()) @db.Uuid
+  session_hash String
+  created_at   DateTime @default(now())
+}

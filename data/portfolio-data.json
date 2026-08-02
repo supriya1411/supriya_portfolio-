@@ -1,0 +1,496 @@
+{
+    "meta": {
+        "version": "2.0",
+        "purpose": "Single source of truth for Supriya Kumari's placement portfolio",
+        "rules": {
+            "deduplicate": true,
+            "hideEmptyFields": true,
+            "neverInventData": true,
+            "jobSimulationsAreNotEmployment": true,
+            "participationIsNotWinning": true,
+            "doNotPublishFlaggedCredentials": true,
+            "doNotExposeSensitiveCertificateFields": true
+        },
+        "dataStatus": "Consolidated and deduplicated from information and proof supplied by the user."
+    },
+    "personal": {
+        "fullName": "Supriya Kumari",
+        "displayName": "Supriya Kumari",
+        "professionalTitle": "Software Developer",
+        "roles": [
+            "B.Tech Information Technology Student",
+            "Software Developer",
+            "Full Stack Developer",
+            "Data Analytics Enthusiast",
+            "Open Source Contributor"
+        ],
+        "availability": "Open to Software Engineering Internships and placement opportunities",
+        "location": "India",
+        "email": "shreyaaditye@gmail.com",
+        "phone": "8102460570",
+        "profilePhoto": "/profile/profile.jpg",
+        "resume": "/resume/Supriya_Kumari_Resume.pdf",
+        "tagline": "Building practical, scalable and data-driven software solutions using modern technologies and strong computer science fundamentals."
+    },
+    "social": {
+        "linkedin": "https://www.linkedin.com/in/supriya-kumari-b56264350",
+        "github": "https://share.google/HNdnrqbNqHj3IRfSS",
+        "leetcode": "https://share.google/n0KdNjlfXg9NnM46R",
+        "hackerrank": "",
+        "codechef": ""
+    },
+    "about": {
+        "summary": "B.Tech Information Technology student interested in software development, full-stack applications, data analytics, AI/ML and open-source development. Focused on building practical projects, strengthening problem-solving skills and applying core computer science concepts to real-world problems."
+    },
+    "education": [
+        {
+            "degree": "B.Tech",
+            "field": "Information Technology",
+            "institution": "SRM Institute of Science and Technology",
+            "campus": "Ramapuram",
+            "location": "Chennai, India",
+            "cgpa": 9.76,
+            "startYear": 2024,
+            "graduationYear": 2028,
+            "proof": "",
+            "startDate": "2024-07",
+            "endDate": "2028-06"
+        },
+        {
+            "level": "Class XII",
+            "school": "",
+            "board": "Bihar School Examination Board",
+            "percentage": "",
+            "year": "",
+            "proof": ""
+        },
+        {
+            "level": "Class X",
+            "school": "",
+            "board": "",
+            "percentage": "",
+            "year": "",
+            "proof": ""
+        }
+    ],
+    "skills": {
+        "programmingLanguages": [
+            "Python",
+            "Java",
+            "JavaScript",
+            "SQL"
+        ],
+        "frontend": [
+            "HTML",
+            "CSS",
+            "React",
+            "Next.js",
+            "Tailwind CSS"
+        ],
+        "backend": [
+            "FastAPI",
+            "Node.js",
+            "Express.js",
+            "REST APIs"
+        ],
+        "databases": [
+            "PostgreSQL",
+            "SQLite"
+        ],
+        "dataAnalyticsAndML": [
+            "Pandas",
+            "NumPy",
+            "Scikit-learn",
+            "Power BI",
+            "Tableau",
+            "Excel"
+        ],
+        "toolsAndDevOps": [
+            "Git",
+            "GitHub",
+            "VS Code",
+            "Docker",
+            "npm",
+            "Google Colab",
+            "Jupyter Notebook"
+        ],
+        "coreCS": [
+            "Data Structures and Algorithms",
+            "DBMS",
+            "Object-Oriented Programming",
+            "Operating Systems",
+            "Computer Networks",
+            "Software Engineering"
+        ]
+    },
+    "experience": [
+        {
+            "id": "skillcraft-data-science-2026",
+            "role": "Data Science Intern",
+            "organization": "SkillCraft Technology",
+            "type": "Internship",
+            "startDate": "2026-01-01",
+            "endDate": "2026-01-31",
+            "description": "Completed a one-month internship in Data Science.",
+            "certificateId": "SCT/JAN26/0038",
+            "proof": "/internships/skillcraft-data-science.pdf"
+        },
+        {
+            "id": "skillcraft-ml-offer-2026",
+            "role": "Machine Learning Intern",
+            "organization": "SkillCraft Technology",
+            "type": "Internship Offer",
+            "startDate": "2026-02-01",
+            "endDate": "2026-02-28",
+            "description": "Machine Learning internship offer for February 2026.",
+            "proof": "/internships/skillcraft-machine-learning-offer.jpg"
+        }
+    ],
+    "jobSimulations": [
+        {
+            "id": "tata-genai-data-analytics-forage-2026",
+            "title": "GenAI Powered Data Analytics Job Simulation",
+            "organization": "Tata",
+            "platform": "Forage",
+            "type": "Job Simulation",
+            "completionDate": "2026-03-15",
+            "tasks": [
+                "Exploratory data analysis and risk profiling",
+                "Predicting delinquency with AI",
+                "Business report and data storytelling for collections strategy",
+                "Implementing an AI-driven collections strategy"
+            ],
+            "enrolmentVerificationCode": "LPFQNFradwQRA9mLq",
+            "userVerificationCode": "xtFvCbTY4Mxjz7vxz",
+            "proof": "/job-simulations/tata-genai-data-analytics.pdf"
+        },
+        {
+            "id": "deloitte-data-analytics-forage-2026",
+            "title": "Data Analytics Job Simulation",
+            "organization": "Deloitte",
+            "platform": "Forage",
+            "type": "Job Simulation",
+            "completionDate": "2026-03-14",
+            "tasks": [
+                "Data analysis",
+                "Forensic technology"
+            ],
+            "enrolmentVerificationCode": "g6b2rgozgvNDKKv6B",
+            "userVerificationCode": "xtFvCbTY4Mxjz7vxz",
+            "proof": "/job-simulations/deloitte-data-analytics.pdf"
+        },
+        {
+            "id": "goldman-risk-forage-2026",
+            "title": "Risk Job Simulation",
+            "organization": "Goldman Sachs",
+            "platform": "Forage",
+            "type": "Job Simulation",
+            "completionDate": "2026-03-14",
+            "tasks": [
+                "An introduction to risk",
+                "Evaluating client profiles and real estate investments"
+            ],
+            "enrolmentVerificationCode": "otXucSdE3GTuk6PJr",
+            "userVerificationCode": "xtFvCbTY4Mxjz7vxz",
+            "proof": "/job-simulations/goldman-sachs-risk.pdf"
+        }
+    ],
+    "certifications": [
+        {
+            "id": "nptel-ml-2026",
+            "title": "Introduction to Machine Learning",
+            "issuer": "NPTEL",
+            "institution": "IIT Madras",
+            "period": "Jan-Apr 2026",
+            "duration": "12 weeks",
+            "score": 60,
+            "recognition": "Elite",
+            "recommendedCredits": 4,
+            "certificateNumber": "NPTEL26CS74S150308306",
+            "proof": "/certificates/nptel-introduction-machine-learning.pdf"
+        },
+        {
+            "id": "nptel-dbms-2026",
+            "title": "Data Base Management System",
+            "issuer": "NPTEL",
+            "institution": "IIT Kharagpur",
+            "period": "Jan-Mar 2026",
+            "duration": "8 weeks",
+            "score": 54,
+            "recommendedCredits": 3,
+            "certificateNumber": "NPTEL26CS39S653409284",
+            "proof": "/certificates/nptel-dbms.pdf"
+        },
+        {
+            "id": "hackerrank-java-basic-2025",
+            "title": "Java (Basic)",
+            "issuer": "HackerRank",
+            "issueDate": "2025-10-26",
+            "credentialId": "857479C85F92",
+            "proof": "/certificates/hackerrank-java-basic.jpg"
+        },
+        {
+            "id": "hackerrank-sql-basic-2026",
+            "title": "SQL (Basic)",
+            "issuer": "HackerRank",
+            "issueDate": "2026-04-04",
+            "credentialId": "0603E4624178",
+            "proof": "/certificates/hackerrank-sql-basic.jpg"
+        },
+        {
+            "id": "hackerrank-sql-intermediate-2026",
+            "title": "SQL (Intermediate)",
+            "issuer": "HackerRank",
+            "issueDate": "2026-04-04",
+            "credentialId": "FE928B9872CF",
+            "proof": "/certificates/hackerrank-sql-intermediate.jpg"
+        },
+        {
+            "id": "hackerrank-sql-advanced-2026",
+            "title": "SQL (Advanced)",
+            "issuer": "HackerRank",
+            "issueDate": "2026-04-04",
+            "credentialId": "B544BF6658CA",
+            "proof": "/certificates/hackerrank-sql-advanced.jpg"
+        },
+        {
+            "id": "simplilearn-deep-learning-2025",
+            "title": "Deep Learning",
+            "issuer": "Simplilearn SkillUp",
+            "issueDate": "2025-12-20",
+            "certificateCode": "9611502",
+            "proof": "/certificates/simplilearn-deep-learning.jpg"
+        },
+        {
+            "id": "simplilearn-google-cloud-ai-2025",
+            "title": "Innovating with Google Cloud AI",
+            "issuer": "Simplilearn SkillUp",
+            "issueDate": "2025-12-20",
+            "certificateCode": "9611647",
+            "note": "Course completion certificate; not an official Google Cloud Certification.",
+            "proof": "/certificates/innovating-google-cloud-ai.jpg"
+        },
+        {
+            "id": "simplilearn-data-analytics-2025",
+            "title": "Introduction to Data Analytics",
+            "issuer": "Simplilearn SkillUp",
+            "issueDate": "2025-12-19",
+            "certificateCode": "9608715",
+            "proof": "/certificates/simplilearn-introduction-data-analytics.jpg"
+        },
+        {
+            "id": "coursera-powerpoint-2025",
+            "title": "Getting Started with Microsoft PowerPoint",
+            "issuer": "Coursera",
+            "issueDate": "2025-12-18",
+            "proof": "/certificates/coursera-microsoft-powerpoint.jpg"
+        },
+        {
+            "id": "saylor-word-processing-2025",
+            "title": "PRDV003: Word Processing",
+            "issuer": "Saylor Academy",
+            "issueDate": "2025-12-22",
+            "certificateId": "4476650671SK",
+            "grade": "90%",
+            "duration": "5 hours",
+            "proof": "/certificates/saylor-word-processing.jpg"
+        }
+    ],
+    "credentialsWithCaution": [
+        {
+            "id": "aws-educate-ml-foundations",
+            "title": "Machine Learning Foundations",
+            "issuer": "AWS Educate",
+            "type": "Training Badge",
+            "status": "usable_as_badge",
+            "note": "Uploaded badge page does not visibly show holder name or credential ID.",
+            "proof": "/badges/aws-educate-machine-learning-foundations.pdf",
+            "publish": true,
+            "displaySection": "Badges",
+            "displayAs": "Training Badge"
+        },
+        {
+            "id": "simplilearn-skillquest-data-science",
+            "title": "SkillQuest - Data Science Foundation",
+            "issuer": "Simplilearn SkillUp",
+            "issueDate": "2026-03-14",
+            "certificateNumber": "63525726",
+            "status": "name_mismatch",
+            "note": "Certificate displays SUPRIYA KUMAR instead of SUPRIYA KUMARI. Prefer correction before prominent display.",
+            "proof": "/certificates/skillquest-data-science-foundation.pdf",
+            "publish": false
+        },
+        {
+            "id": "microsoft-soar-ai-aspire",
+            "title": "SOAR - AI to Aspire",
+            "issuer": "Microsoft / NCVET",
+            "issueDate": "2025-12-25",
+            "duration": "15 Hours",
+            "credits": 0.5,
+            "certificateNumber": "2025090734751579-021701",
+            "status": "do_not_publish_until_verified",
+            "note": "Uploaded certificate contains personal data that should be verified before public display.",
+            "proof": "/certificates/microsoft-soar-ai-to-aspire.pdf",
+            "publish": false
+        }
+    ],
+    "openSource": [
+        {
+            "id": "oscg-2026",
+            "program": "Open Source Connect Global 2026",
+            "role": "Contributor",
+            "type": "Open Source Program",
+            "repository": "",
+            "issueUrl": "",
+            "pullRequestUrl": "",
+            "status": "",
+            "proof": "/opensource/oscg-2026-contributor.jpg"
+        },
+        {
+            "id": "ecsoc-2026",
+            "program": "ECSOC 2026",
+            "role": "Contributor",
+            "type": "Open Source Program",
+            "repository": "",
+            "issueUrl": "",
+            "pullRequestUrl": "",
+            "status": "",
+            "proof": "/opensource/ecsoc-2026-contributor.jpg"
+        }
+    ],
+    "competitionsAndActivities": [
+        {
+            "id": "epsilon-7-analytics-conclave-2026",
+            "title": "Epsilon 7.0 – The Analytics Case Competition",
+            "type": "Competition Participation",
+            "organizer": "Shaheed Sukhdev College of Business Studies, University of Delhi",
+            "event": "The Analytics Conclave '26",
+            "result": "Participant",
+            "proof": "/achievements/epsilon-7-analytics-case-competition.pdf"
+        },
+        {
+            "id": "casetify-case-study-competition",
+            "title": "Casetify - A Case Study Competition",
+            "type": "Competition Participation",
+            "organizer": "Sri Guru Tegh Bahadur Khalsa College, University of Delhi",
+            "result": "Participant",
+            "proof": "/achievements/casetify-case-study-competition.pdf"
+        },
+        {
+            "id": "tata-crucible-campus-quiz-2025",
+            "title": "TATA Crucible Campus Quiz 2025",
+            "type": "Quiz Participation",
+            "organizer": "Tata",
+            "result": "Participant",
+            "proof": "/achievements/tata-crucible-campus-quiz-2025.jpg"
+        },
+        {
+            "id": "kernelcraft-backend-workshop-2026",
+            "title": "KernelCraft – Backend Workshop",
+            "type": "Workshop",
+            "organization": "SRM Ramapuram / BetaBots",
+            "date": "2026-04-11",
+            "proof": "/activities/kernelcraft-backend-workshop.jpg"
+        }
+    ],
+    "academicActivities": [
+        {
+            "id": "uhv-food-donation-2025-26",
+            "title": "Food Donation – Universal Human Values Field Work / Case Study",
+            "institution": "SRM Institute of Science and Technology, Ramapuram",
+            "academicYear": "2025-2026",
+            "type": "Academic Field Work",
+            "description": "Field work/case study on food donation, social responsibility, ethical values and reduction of food waste.",
+            "proof": "/academic/uhv-food-donation-report.pdf",
+            "showOnMainPortfolio": false
+        }
+    ],
+    "badgesAndPlatforms": [
+        {
+            "id": "servicenow-university",
+            "platform": "ServiceNow University",
+            "points": 5078,
+            "level": "Challenger Level 2",
+            "completed": 28,
+            "achievements": 22,
+            "proof": "/badges/servicenow-university.jpg",
+            "note": "Values captured from provided profile screenshot; update if profile statistics change."
+        }
+    ],
+    "projects": [
+        {
+            "id": "project-1",
+            "name": "",
+            "category": "",
+            "tagline": "",
+            "description": "",
+            "problem": "",
+            "solution": "",
+            "features": [],
+            "techStack": [],
+            "architecture": "",
+            "myContribution": "",
+            "challenges": [],
+            "learnings": [],
+            "futureScope": [],
+            "github": "",
+            "liveDemo": "",
+            "image": "",
+            "status": "",
+            "publish": false
+        }
+    ],
+    "codingProfiles": {
+        "github": {
+            "url": "https://share.google/HNdnrqbNqHj3IRfSS",
+            "username": "",
+            "autoFetchStats": true,
+            "urlType": "user-provided share link"
+        },
+        "leetcode": {
+            "url": "https://share.google/n0KdNjlfXg9NnM46R",
+            "username": "",
+            "autoFetchStats": true,
+            "urlType": "user-provided share link"
+        },
+        "hackerrank": {
+            "url": "",
+            "username": ""
+        },
+        "codechef": {
+            "url": "",
+            "username": ""
+        }
+    },
+    "contact": {
+        "email": "shreyaaditye@gmail.com",
+        "phone": "8102460570",
+        "linkedin": "https://www.linkedin.com/in/supriya-kumari-b56264350",
+        "github": "https://share.google/HNdnrqbNqHj3IRfSS",
+        "showPhonePublicly": false
+    },
+    "portfolioDisplayRules": {
+        "homePriority": [
+            "Hero",
+            "About",
+            "Skills",
+            "Experience",
+            "Featured Projects",
+            "Open Source",
+            "Certifications",
+            "Achievements",
+            "Contact"
+        ],
+        "separateJobSimulationsFromInternships": true,
+        "showOnlyVerifiedAchievements": true,
+        "hideEmptySections": true,
+        "doNotShowCautionCredentialsUnlessApproved": true,
+        "deduplicateByIdAndCredential": true,
+        "preserveExistingTheme": "black-pink-coral-star"
+    },
+    "proofHandling": {
+        "instruction": "Use each proof path only after the corresponding supplied file is copied into /public. If a file is unavailable, hide the proof button instead of showing a broken link.",
+        "wrongCredentialExcluded": "The NPTEL DBMS certificate belonging to HARISH is excluded. Use only Supriya Kumari's DBMS certificate.",
+        "caution": "Items with publish=false must not appear publicly."
+    }
+}
