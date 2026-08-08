@@ -30,7 +30,7 @@
         "phone": "8102460570",
         "profilePhoto": "/profile/profile.jpg",
         "resume": "/resume/Supriya_Kumari_Resume.pdf",
-        "tagline": "Building practical, scalable and data-driven software solutions using modern technologies and strong computer science fundamentals."
+        "tagline": "Open to Software Engineering Internships (Testing JSON Sync)"
     },
     "social": {
         "linkedin": "https://www.linkedin.com/in/supriya-kumari-b56264350",
@@ -133,17 +133,7 @@
             "endDate": "2026-01-31",
             "description": "Completed a one-month internship in Data Science.",
             "certificateId": "SCT/JAN26/0038",
-            "proof": "/internships/skillcraft-data-science.pdf"
-        },
-        {
-            "id": "skillcraft-ml-offer-2026",
-            "role": "Machine Learning Intern",
-            "organization": "SkillCraft Technology",
-            "type": "Internship Offer",
-            "startDate": "2026-02-01",
-            "endDate": "2026-02-28",
-            "description": "Machine Learning internship offer for February 2026.",
-            "proof": "/internships/skillcraft-machine-learning-offer.jpg"
+            "proof": "https://www.image2url.com/r2/default/images/1786206858484-2ad1615a-27db-44c2-84d7-93ce15d087af.png"
         }
     ],
     "jobSimulations": [
@@ -162,7 +152,7 @@
             ],
             "enrolmentVerificationCode": "LPFQNFradwQRA9mLq",
             "userVerificationCode": "xtFvCbTY4Mxjz7vxz",
-            "proof": "/job-simulations/tata-genai-data-analytics.pdf"
+            "proof": "https://www.image2url.com/r2/default/images/1786208497540-5bf4e5f6-3944-49cd-bcb1-4f77c8003e8b.png"
         },
         {
             "id": "deloitte-data-analytics-forage-2026",
@@ -177,7 +167,7 @@
             ],
             "enrolmentVerificationCode": "g6b2rgozgvNDKKv6B",
             "userVerificationCode": "xtFvCbTY4Mxjz7vxz",
-            "proof": "/job-simulations/deloitte-data-analytics.pdf"
+            "proof": "https://www.image2url.com/r2/default/images/1786208811606-feed14ee-4e1e-4313-984a-e8d93b7ab8a3.png"
         },
         {
             "id": "goldman-risk-forage-2026",
@@ -192,7 +182,7 @@
             ],
             "enrolmentVerificationCode": "otXucSdE3GTuk6PJr",
             "userVerificationCode": "xtFvCbTY4Mxjz7vxz",
-            "proof": "/job-simulations/goldman-sachs-risk.pdf"
+            "proof": "https://www.image2url.com/r2/default/images/1786209302615-abc97ed6-526c-4dda-91c7-f49994574946.png"
         }
     ],
     "certifications": [
@@ -207,7 +197,7 @@
             "recognition": "Elite",
             "recommendedCredits": 4,
             "certificateNumber": "NPTEL26CS74S150308306",
-            "proof": "/certificates/nptel-introduction-machine-learning.pdf"
+            "proof": "https://www.image2url.com/r2/default/images/1786209876768-eecc9c87-d121-4e7a-875e-fd255fbbf670.png"
         },
         {
             "id": "nptel-dbms-2026",
@@ -219,7 +209,7 @@
             "score": 54,
             "recommendedCredits": 3,
             "certificateNumber": "NPTEL26CS39S653409284",
-            "proof": "/certificates/nptel-dbms.pdf"
+            "proof": "https://www.image2url.com/r2/default/images/1786210167429-3f86b2e9-2eb6-40eb-af35-4490bb2ee700.png"
         },
         {
             "id": "hackerrank-java-basic-2025",
@@ -227,7 +217,7 @@
             "issuer": "HackerRank",
             "issueDate": "2025-10-26",
             "credentialId": "857479C85F92",
-            "proof": "/certificates/hackerrank-java-basic.jpg"
+            "proof": "https://www.image2url.com/r2/default/images/1786210652890-85d2b52d-ca95-4bf7-9233-f62d84dee43f.jpeg"
         },
         {
             "id": "hackerrank-sql-basic-2026",
@@ -235,7 +225,7 @@
             "issuer": "HackerRank",
             "issueDate": "2026-04-04",
             "credentialId": "0603E4624178",
-            "proof": "/certificates/hackerrank-sql-basic.jpg"
+            "proof": "https://www.image2url.com/r2/default/images/1786210887739-e9c5a7d4-142e-40e7-87f2-f33fba4ce5a7.png"
         },
         {
             "id": "hackerrank-sql-intermediate-2026",
@@ -276,14 +266,22 @@
             "issuer": "Simplilearn SkillUp",
             "issueDate": "2025-12-19",
             "certificateCode": "9608715",
-            "proof": "/certificates/simplilearn-introduction-data-analytics.jpg"
+            "proof": "/certificates/placeholder.png"
+        },
+        {
+            "id": "cisco-packet-tracer-2025",
+            "title": "Cisco Packet Tracer Certificate",
+            "issuer": "Cisco Networking Academy",
+            "issueDate": "2025-12-19",
+            "certificateCode": "9608715",
+            "proof": "/certificates/placeholder.png"
         },
         {
             "id": "coursera-powerpoint-2025",
             "title": "Getting Started with Microsoft PowerPoint",
             "issuer": "Coursera",
             "issueDate": "2025-12-18",
-            "proof": "/certificates/coursera-microsoft-powerpoint.jpg"
+            "proof": "/certificates/placeholder.png"
         },
         {
             "id": "saylor-word-processing-2025",
@@ -293,7 +291,7 @@
             "certificateId": "4476650671SK",
             "grade": "90%",
             "duration": "5 hours",
-            "proof": "/certificates/saylor-word-processing.jpg"
+            "proof": "/certificates/placeholder.png"
         }
     ],
     "credentialsWithCaution": [
